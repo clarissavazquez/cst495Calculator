@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CB472C341D9DF3120054FA77 /* Calculator Brain.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB472C331D9DF3120054FA77 /* Calculator Brain.swift */; };
 		CBB8A9C01D832F9200E8B930 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBB8A9BF1D832F9200E8B930 /* AppDelegate.swift */; };
 		CBB8A9C21D832F9200E8B930 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBB8A9C11D832F9200E8B930 /* ViewController.swift */; };
 		CBB8A9C51D832F9200E8B930 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBB8A9C31D832F9200E8B930 /* Main.storyboard */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CB472C331D9DF3120054FA77 /* Calculator Brain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Calculator Brain.swift"; path = "Calculator/Calculator Brain.swift"; sourceTree = "<group>"; };
 		CBB8A9BC1D832F9200E8B930 /* Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Calculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBB8A9BF1D832F9200E8B930 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CBB8A9C11D832F9200E8B930 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -77,6 +79,7 @@
 		CBB8A9B31D832F9200E8B930 = {
 			isa = PBXGroup;
 			children = (
+				CB472C331D9DF3120054FA77 /* Calculator Brain.swift */,
 				CBB8A9BE1D832F9200E8B930 /* Calculator */,
 				CBB8A9D31D832F9200E8B930 /* CalculatorTests */,
 				CBB8A9DE1D832F9200E8B930 /* CalculatorUITests */,
@@ -258,6 +261,7 @@
 			files = (
 				CBB8A9C21D832F9200E8B930 /* ViewController.swift in Sources */,
 				CBB8A9C01D832F9200E8B930 /* AppDelegate.swift in Sources */,
+				CB472C341D9DF3120054FA77 /* Calculator Brain.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -405,6 +409,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = clarissavazquez.Calculator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -416,6 +421,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = clarissavazquez.Calculator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -484,6 +490,7 @@
 				CBB8A9E61D832F9200E8B930 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CBB8A9E71D832F9200E8B930 /* Build configuration list for PBXNativeTarget "CalculatorTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +499,7 @@
 				CBB8A9E91D832F9200E8B930 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CBB8A9EA1D832F9200E8B930 /* Build configuration list for PBXNativeTarget "CalculatorUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +508,7 @@
 				CBB8A9EC1D832F9200E8B930 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
